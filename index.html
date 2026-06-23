@@ -7,164 +7,168 @@
 
 <style>
 body{
-    font-family: Arial, sans-serif;
     margin:0;
-    background:#f4f6f9;
+    font-family: Arial, sans-serif;
+    background:#f5f7fb;
     color:#222;
 }
 
-header{
-    background:#0d6efd;
+/* HERO */
+.hero{
+    background: linear-gradient(135deg,#0d6efd,#0a58ca);
     color:white;
     text-align:center;
-    padding:60px 20px;
+    padding:80px 20px;
 }
 
-header h1{
-    margin:0;
+.hero h1{
     font-size:32px;
+    margin-bottom:10px;
 }
 
-header p{
-    margin-top:10px;
+.hero p{
     font-size:16px;
+    opacity:0.9;
 }
 
-button{
+.btn{
+    display:inline-block;
     margin-top:15px;
-    padding:10px 18px;
-    border:none;
-    border-radius:5px;
+    padding:12px 20px;
     background:white;
     color:#0d6efd;
+    border-radius:6px;
+    text-decoration:none;
     font-weight:bold;
-    cursor:pointer;
 }
 
+/* SECTIONS */
 section{
-    padding:20px;
+    padding:30px 20px;
+}
+
+.container{
     max-width:900px;
     margin:auto;
 }
 
+/* CARDS */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
 .card{
     background:white;
-    padding:15px;
-    margin:10px 0;
+    padding:20px;
     border-radius:10px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
-h2{
-    color:#0d6efd;
+/* CONTACT */
+.contact{
+    background:#fff;
+    border-radius:10px;
+    padding:20px;
 }
 
-ul{
-    padding-left:18px;
-}
-
+/* FOOTER */
 footer{
     text-align:center;
-    padding:15px;
-    background:#222;
+    padding:20px;
+    background:#111;
     color:white;
-    margin-top:20px;
+    font-size:14px;
 }
 
-a{
-    color:#0d6efd;
+/* WHATSAPP FLOAT */
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:12px 15px;
+    border-radius:50px;
     text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
 </style>
-
 </head>
 
 <body>
 
-<header>
-<h1>Chipork Tech Hub</h1>
-<p>Your Trusted Digital & Identity Solutions Partner</p>
-
-<a href="https://wa.me/2347026661987">
-<button>Chat on WhatsApp</button>
-</a>
-</header>
+<div class="hero">
+    <h1>Chipork Tech Hub</h1>
+    <p>Digital Solutions • NIN Services • Tech Support • Web Development</p>
+    <a class="btn" href="https://wa.me/2347026661987">Contact Us on WhatsApp</a>
+</div>
 
 <section>
+<div class="container">
 
 <h2>About Us</h2>
-<div class="card">
 <p>
-Chipork Tech Hub is a trusted digital service centre providing telecommunications,
-identity management, financial technology, and online registration services.
-We help individuals and businesses access essential services easily and efficiently.
+Chipork Tech Hub provides reliable digital and administrative services including NIN support, SIM registration, and modern web solutions. We help individuals and businesses solve everyday tech-related problems efficiently.
 </p>
+
 </div>
+</section>
+
+<section>
+<div class="container">
 
 <h2>Our Services</h2>
 
-<div class="card">
-<h3>Telecommunications Services</h3>
-<ul>
-<li>SIM registration for MTN, Airtel, Glo, and 9mobile</li>
-<li>SIM welcome-back services</li>
-<li>SIM upgrade and replacement</li>
-<li>NIN-SIM linkage</li>
-<li>Network-related issue support</li>
-</ul>
-</div>
+<div class="grid">
 
 <div class="card">
 <h3>NIN Services</h3>
-<ul>
-<li>New NIN enrolment assistance</li>
-<li>NIN slip retrieval and reprinting</li>
-<li>NIN validation</li>
-<li>NIN modification (name, DOB, address, etc.)</li>
-</ul>
+<p>Slip conversion, modification, validation and retrieval.</p>
 </div>
 
 <div class="card">
-<h3>BVN Services</h3>
-<ul>
-<li>BVN retrieval</li>
-<li>BVN data correction support</li>
-</ul>
+<h3>SIM Services</h3>
+<p>New SIM registration, welcome back, and upgrade support.</p>
 </div>
 
 <div class="card">
-<h3>Financial Services</h3>
-<ul>
-<li>Microfinance account opening (OPay, Moniepoint)</li>
-<li>Debit card activation and support</li>
-</ul>
+<h3>Tech Support</h3>
+<p>General troubleshooting and digital assistance.</p>
 </div>
 
 <div class="card">
-<h3>Online Services</h3>
-<ul>
-<li>Online registration assistance</li>
-<li>Identity verification support</li>
-<li>Digital documentation services</li>
-</ul>
+<h3>Web Development</h3>
+<p>Basic website design for individuals and businesses.</p>
 </div>
 
-<h2>Contact Us</h2>
-<div class="card">
-<p>📞 07026661987</p>
-<p>📧 chigyodzerterungwa@gmail.com</p>
-<p>
-<a href="https://www.facebook.com/profile.php?id=61578299466313">
-Visit Facebook Page
-</a>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container contact">
+
+<h2>Contact</h2>
+<p><b>Phone:</b> 07026661987</p>
+<p><b>Email:</b> chigyodzerterungwa@gmail.com</p>
+<p><b>Facebook:</b> 
+<a href="https://www.facebook.com/profile.php?id=61578299466313">Visit Page</a>
 </p>
-</div>
 
+</div>
 </section>
 
 <footer>
 © 2026 Chipork Tech Hub. All Rights Reserved.
 </footer>
+
+<a class="whatsapp" href="https://wa.me/2347026661987">
+WhatsApp
+</a>
 
 </body>
 </html>
