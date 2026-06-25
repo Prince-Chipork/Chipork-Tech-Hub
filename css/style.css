@@ -157,15 +157,34 @@ footer{
 @media(max-width:768px){
 
     .navbar{
+        flex-direction:row;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
         flex-direction:column;
-        gap:15px;
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:#081120;
+        padding:20px 0;
+        text-align:center;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .nav-links a{
+        padding:10px;
     }
 
     .hero h1{
         font-size:2rem;
-    }
-
-    .nav-links{
-        justify-content:center;
     }
 }
