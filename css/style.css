@@ -165,24 +165,26 @@ footer{
     }
 
     .nav-links{
-        display:none;
-        flex-direction:column;
-        position:absolute;
-        top:80px;
-        left:0;
-        width:100%;
-        background:#081120;
-        padding:20px 0;
-        text-align:center;
-    }
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    background:#081120;
+    padding:15px 0;
+    text-align:left;
+}
 
     .nav-links.active{
         display:flex;
     }
 
-    .nav-links a{
-        padding:10px;
-    }
+   .nav-links a{
+    padding:15px 25px;
+    display:block;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+   }
 
     .hero h1{
         font-size:2rem;
