@@ -26,6 +26,8 @@ body{
     display:flex;
     align-items:center;
     gap:10px;
+    text-decoration:none;
+    color:white;
 }
 
 .logo img{
@@ -33,10 +35,9 @@ body{
 }
 
 .logo-text{
-    color:white;
     font-weight:bold;
     font-size:22px;
-    text-decoration:none;
+    
 }
 
 .nav-links{
