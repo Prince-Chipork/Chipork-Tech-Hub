@@ -43,8 +43,29 @@ body{
 
 .nav-links{
     display:flex;
-    gap:20px;
-    flex-wrap:wrap;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    background:#081120;
+    padding:15px 0;
+    text-align:left;
+
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(-15px);
+
+    transition:
+        opacity .35s ease,
+        transform .35s ease,
+        visibility .35s;
+}
+
+.nav-links.active{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
 }
 
 .nav-links a{
