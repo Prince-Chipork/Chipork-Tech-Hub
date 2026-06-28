@@ -115,6 +115,8 @@ body{
     max-width:1200px;
     margin:auto;
     padding:60px 0;
+    gap:30px;
+    margin-top:40px;
 }
 
 .section-title{
