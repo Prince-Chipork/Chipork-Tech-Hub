@@ -136,7 +136,7 @@ body{
     transition: transform .3s ease, box-shadow .3s ease;
 }
 
-.card h2, .card h3, . about-card h3{
+.card h2, .card h3, .about-card h3{
     color:#0d6efd;
     margin-bottom:10px;
     text-align:center;
@@ -144,7 +144,7 @@ body{
 
 .card p{
     margin-bottom:15px;
-    text-align:justify;
+    text-align:left;
 }
 
 .card ul{
