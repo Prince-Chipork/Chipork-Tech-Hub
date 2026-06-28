@@ -26,4 +26,4 @@ https://prince-chipork.github.io/Chipork-Tech-Hub/
 
 ## Author
 
-Prince Chipork
+**Prince Chipork**
