@@ -1,29 +1,43 @@
 # Chipork Tech Hub Website
 
-This is the official website project for **Chipork Tech Hub**.
+Welcome to the official website project for **Chipork Tech Hub**.
 
-## Services
+## 🌟 About
 
-- NIN Services
-- SIM Registration
-- SIM Upgrade
+Chipork Tech Hub is a digital service provider in Nigeria offering reliable identity management, telecommunication, and technology solutions.
+
+## 🚀 Our Services
+
+- NIN Enrollment
 - NIN Modification
+- NIN Slip Retrieval
 - NIN Validation
+- New SIM Registration
+- SIM Welcome Back
+- SIM Upgrade
+- NIN Linking
+- Microfinance Bank Services
 - BVN Services
-- Web Development
 - Online Registrations
+- Website Development
+- Digital Support
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
+- Git & GitHub
 - GitHub Pages
 
-## Live Website
+## 🌐 Live Website
 
 https://prince-chipork.github.io/Chipork-Tech-Hub/
 
-## Author
+## 👨‍💻 Author
 
 **Prince Chipork**
+
+---
+
+This project is continuously being improved as part of my web development learning journey.
