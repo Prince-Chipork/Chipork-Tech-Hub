@@ -12,14 +12,21 @@ body{
 }
 
 .navbar{
-    background:#081120;
-    padding:12px 5%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
     position:sticky;
     top:0;
     z-index:1000;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 6%;
+
+    background:#081120;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.15);
+
+    transition:all .3s ease;
 }
 
 .logo, .logo:hover{
