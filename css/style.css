@@ -29,7 +29,7 @@ body{
     transition:all .3s ease;
 }
 
-.logo, .logo:hover{
+.logo{
     display:flex;
     align-items:center;
     gap:10px;
@@ -228,6 +228,7 @@ body{
     color:#081120;
     margin-bottom:20px;
     font-size:36px;
+    text-align:center;
 }
 
 .about-content p{
