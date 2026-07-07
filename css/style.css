@@ -143,7 +143,7 @@ body{
    HERO SECTION
 =========================== */
 
-.hero{
+Const1{
     text-align:center;
     padding:80px 20px;
     background:linear-gradient(135deg,#0d6efd,#0047b3);
@@ -163,13 +163,13 @@ body{
     opacity:0.9;
 }
 
-.hero h1{
+Const 2{
     font-size:48px;
     margin-bottom:20px;
     line-height:1.2;
 }
 
-.hero h1 span{
+Const 3{
     display:block;
     color:#ffd54f;
 }
